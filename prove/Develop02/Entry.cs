@@ -7,7 +7,9 @@ class Entry
 
     public void Display()
     {
-        Console.WriteLine("_dateTime");
+        DateTime theCurrentTime = DateTime.Now;
+        string dateText = theCurrentTime.ToShortDateString();
+        //Console.WriteLine("_dateTime");
     }
 
 }

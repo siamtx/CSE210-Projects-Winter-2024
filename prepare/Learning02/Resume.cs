@@ -6,6 +6,7 @@ public class Resume
     public List<Job> _jobs = new List<Job>();
 
     // Display method to display the contents of the _jobs list.
+    /******************
     public void Display()
     {
         Console.WriteLine($"Name: {_name}");
@@ -15,5 +16,5 @@ public class Resume
         {
             job.Display();
         }
-    }
+    }  *******************/
 }
